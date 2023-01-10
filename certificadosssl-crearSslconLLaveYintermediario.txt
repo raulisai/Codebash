@@ -1,0 +1,7 @@
+
+
+openssl pkcs12 -export -out facturacion_bestel_com_mx.pfx -inkey facturacion.bestel.com.mx.key -in facturacion_bestel_com_mx.crt
+
+bestel
+
+openssl pkcs12 -export -out facturacion_bestel_com_mx.pfx -inkey facturacion.bestel.com.mx.key -in facturacion_bestel_com_mx.crt -in TrustedRoot.crt    
